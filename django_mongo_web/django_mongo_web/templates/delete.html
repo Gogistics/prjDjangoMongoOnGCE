@@ -5,7 +5,7 @@
     <link href="{{STATIC_URL}}gcs_app.css" rel="stylesheet" type="text/css">  
   </head> 
   <body>
-    <h1>Blongo - Delete Entry</h1>
+    <h1>Gogistics Cloud Service - Delete Entry</h1>
     <form method="post" action="http://162.222.178.83/delete/">
       {% csrf_token %}
       <input type="hidden" name="id" value="{{id}}">
