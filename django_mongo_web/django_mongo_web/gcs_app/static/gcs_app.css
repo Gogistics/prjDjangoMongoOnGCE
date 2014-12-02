@@ -4,7 +4,7 @@ body {
 
 h1, h2 {
   text-shadow: white 0px 1px 0px;
-  background-color: lightblue;
+  background-color: transparent;
 }
 
 h1 {
@@ -16,8 +16,8 @@ ul {
 }
 
 input[type=submit] {
-  background-color : lightgreen;
-  border-color : lightgreen;
+  background-color : #fff;
+  border-color : #bbb;
   text-shadow: white 0px 1px 0px;
 }
 
